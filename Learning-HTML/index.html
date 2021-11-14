@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This is the head of the HTML file -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML</title>
+</head>
+<!-- This is the body of the HTML file -->
+<body>
+    <!-- These are all types of heading tags -->
+    <h1>This is h1 Tag</h1>
+    <h2>This is h2 Tag</h2>
+    <h3>This is h3 Tag</h3>
+    <h4>This is h4 Tag</h4>
+    <h5>This is h5 Tag</h5>
+    <h6>This is h6 Tag</h6>
+    <!-- This is used to break line -->
+    <br>
+    <!-- This a paragraph tag -->
+    <p>This is a paragraph</p>
+    <br>
+    <!-- This is used to show a horizontal line on the page -->
+    <hr>
+    <p>To display tags on the web browser we use HTML entities</p>
+    <!-- To display tags use html entities -->
+    <!-- This is an example which displays "<" on the web page -->
+    <h3>&lt;</h3>
+    <!-- This is an example which displays "&" on the web page -->
+    <h3>&amp;</h3>
+    <!-- This is an anchor tag we use this as a hyperlink to display links on the page -->
+    <!-- target="_blank"  we use this to open the link on a new tab-->
+    <a href="https://dev.w3.org/html5/html-author/charref" target="_blank">To learn more about HTML Entities you can check this out</a>
+    <hr>
+    <!-- These are some tag used in web pages -->
+    <!-- NOTE -- br tag here is just used for better formatting on the page -->
+    <b>Bold Tag is used here</b>        <br>
+    <strong>Strong Tag is used here</strong>        <br>
+    <i>Italics Tag is used here</i>     <br>
+    <em>Emphasize Tag is used here</em>     <br>
+    <small>Small Tag is used here</small>       <br>
+    <s>S Tag is used here</s>       <br>
+    <!-- This is used to represent a power -->
+    10<sup>2</sup>      <br>
+    <!-- This is used to represent a base -->
+    log <sub>10</sub>10     <br>
+    <hr>
+    	<h2>Strucure of a website</h2>
+    	<!-- Check this image out explains the structure of a website with the tags used for it -->
+    	<img src="https://i.postimg.cc/tRc4SXvS/photo1633881722.jpg" width="700px">
+    	<h5>Credits:Apni Kaksha</h5>
+    	<p><strong>NOTE: div and span tag are used to group elements</strong></p>
+    	<p>div is a block element covers the whole block but span is a inline element does not cover the whole block</p>
+    <hr>
+    <h2>Types of lists</h2>
+    <h3>Ordered list</h3>
+    <!-- You can use type attribute to change from numbering to alphabets to roman numbers -->
+    <ol type="A">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ol>
+    <h3>Unordered list</h3>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    <hr>
+    <h2>Links</h2>
+    <!-- Using links "a tag"-->
+    <!-- Using target="_blank"  will open the link into a new tab -->
+    <!-- href consists of the location to a webpage (relative path(recommended)/absolute path) or a link to a webpage -->
+    <a href="https://www.google.com/" target="_blank">This is a link to google.com</a>
+    <hr>
+    <h2>Images</h2>
+    <!-- src consists of the location to an image (relative path(recommended)/absolute path) or a link to a image -->
+    <!-- alt store a alternative text that will be displayed if the image is not loaded properly or missing -->
+    <!-- width and height can also be defined in pixels as an attribute to an image -->
+    <!-- Using only one of the height or width is recommended as it affects the aspect ratio of the image -->
+    <img src="assets/nature.jpg" alt="nature" width="300px">
+    <hr>
+    <h2>Video</h2>
+    <!-- Some attributes like autoplay controls loop muted poster -->
+    <!-- width and height can also be defined in pixels as an attribute to an video -->
+    <!-- You can also use poster="img_link" as a poster to a video -->
+    <!-- This is an autoplay video -->
+    <h4>This video will autoplay</h4>
+    <!-- using autoplay attribute -->
+    <video src="assets/nature.mp4" width="300px" autoplay></video>
+    <h4>This video will have controls</h4>
+    <!-- using control attribute -->
+    <video src="assets/nature.mp4" width="300px" controls></video>
+    <h4>This video will loop after it ends up</h4>
+    <!-- using loop attribute -->
+    <video src="assets/nature.mp4" width="300px" autoplay loop></video>
+    <hr>
+    <h2>iframe tag</h2>
+    <!-- This is a video iframe tag generate from the share embed option from youtube -->
+    <h4>This is a video using iframe tag</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0dgMHYThYXw" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4>This is a site using iframe tag</h4>
+    <iframe src="https://en.wikipedia.org/wiki/HTML" title="Wikipedia website" frameborder="2"  width="560" height="315" ></iframe>
+    <hr>
+    <h2>Table</h2>
+    <!-- This is the beginning of the table -->
+    <!-- table tag is used -->
+    <table>
+        <!-- This thead is used to display the header in a table will be bold -->
+        <thead>
+            <!-- tr represents one row of the table -->
+            <tr>
+                <!-- th represents table heading -->
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Marks</th>
+            </tr>
+            <!-- thead closes here -->
+        </thead>
+        <!-- here table body comes -->
+        <tbody>
+            <tr>
+                <!-- td represent table data -->
+                <td>Rahul Singh</td>
+                <td>41</td>
+                <td>910</td>
+            </tr>
+            <tr>
+                <td>Tarun Katiyar</td>
+                <td>67</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Kavya Verma</td>
+                <td>23</td>
+                <td>990</td>
+            </tr>
+        </tbody>
+        <!-- This is table footer -->
+        <tfoot>
+            <tr>
+                <!-- colspan=2 will merge two columns into one -->
+                <!-- You can use colspan and rowspan to merge rows and columns -->
+                <td colspan="2">Total</td>
+                <td>2800</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Form</h2>
+    <h4>We will be learning form with an example of a Payment form</h4>
+    <br>
+    <!-- Payment form -->
+    <!-- in action we give the location of a server to store information in -->
+    <!-- in the method we give type of submission POST GET ect -->
+    <form action="" method="">
+        <h2>Contact Information</h2>
+        <!-- input type text means the input will be in the form of text -->
+        <!-- In this para tag we have used input tag to take input from the user -->
+        <!-- Input include name(name of variable to store data in) and id(id to make it unique)  -->
+        <!-- This required attribute will not allow the form to submit until it is filled -->
+        <p>Name: <input type="text" name="name" id="" required>  </p>
+        <!-- this will make a outline of the p tag -->
+        <fieldset>
+            <!-- legend is used to give the name as shown on the web page -->
+            <legend>Gender</legend>
+            <p>
+                <!-- input type radio will provide a radio button for selection -->
+                <!-- for a particular option give name same for both radio buttons otherwise you will be able to choose both of them -->
+                Male <input type="radio" name="gender" id="">
+                Female <input type="radio" name="gender" id="">
+            </p>
+        </fieldset>
+        <!-- This is text area it is same as input but can be expanded and has many lines in it -->
+        <p>Address: <textarea name="address" id="" cols="30" rows="3"></textarea> </p>
+        <!-- type="email" is will also warn if @gmail or any other thing provided instead of a email -->
+        <p>Email: <input type="email" name="email" id=""> </p>
+        <!-- type="number" is will also warn if anything instead of number is written -->
+        <p>Pincode: <input type="number" name="pincode" id=""> </p>
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card_type" id="" required>
+                <!-- if this value is not left blank then the form would get submitted without choosing the card type -->
+                <option value="">--Select a card type--</option>
+                <!-- these option will be shown in the dropdown list -->
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="martercard">MasterCard</option>
+            </select>
+        </p>
+        <p>Card number <input type="number" name="cardnumber" id="" required> </p>
+        <p>
+            <!-- type date will provide a calender to choose date from -->
+            Expiration Date: <input type="date" name="expdate" id="" required>
+        </p>
+        <!-- input type password will hide the wriiten text form the input box -->
+        <p>CVV: <input type="password" name="cvv" id="" required> </p>
+        <!-- this will display a submit form button with text pay now -->
+        <input type="submit" value="Pay Now">
+    </form>
+    <a href="https://www.w3schools.com/html/html_form_input_types.asp">Learn More about input types</a>
+    <br>
+    <hr>
+</body>
+</html>

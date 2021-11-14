@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="" method="" class="container">
+      <h1 class="main_heading">Payment Form</h1>
+      <hr />
+      <h2>User Information</h2>
+      <!-- input type text means the input will be in the form of text -->
+      <!-- In this para tag we have used input tag to take input from the user -->
+      <!-- Input include name(name of variable to store data in) and id(id to make it unique)  -->
+      <!-- This required attribute will not allow the form to submit until it is filled -->
+      <p>Name: <input type="text" name="name" id="" required /></p>
+      <!-- this will make a outline of the p tag -->
+      <fieldset>
+        <!-- legend is used to give the name as shown on the web page -->
+        <legend>Gender</legend>
+        <p>
+          <!-- input type radio will provide a radio button for selection -->
+          <!-- for a particular option give name same for both radio buttons otherwise you will be able to choose both of them -->
+          Male <input type="radio" name="gender" id="" /> Female
+          <input type="radio" name="gender" id="" />
+        </p>
+      </fieldset>
+      <!-- This is text area it is same as input but can be expanded and has many lines in it -->
+      <p>
+        Address: <textarea name="address" id="" cols="30" rows="3"></textarea>
+      </p>
+      <!-- type="email" is will also warn if @gmail or any other thing provided instead of a email -->
+      <p>Email: <input type="email" name="email" id="" /></p>
+      <!-- type="number" is will also warn if anything instead of number is written -->
+      <p>Pincode: <input type="number" name="pincode" id="" /></p>
+      <h2>Payment Information</h2>
+      <p>
+        Card Type:
+        <select name="card_type" id="" required>
+          <!-- if this value is not left blank then the form would get submitted without choosing the card type -->
+          <option value="">--Select a card type--</option>
+          <!-- these option will be shown in the dropdown list -->
+          <option value="visa">Visa</option>
+          <option value="rupay">Rupay</option>
+          <option value="martercard">MasterCard</option>
+        </select>
+      </p>
+      <p>
+        Card number <input type="number" name="cardnumber" id="" required />
+      </p>
+      <p>
+        <!-- type date will provide a calender to choose date from -->
+        Expiration Date: <input type="date" name="expdate" id="" required />
+      </p>
+      <!-- input type password will hide the wriiten text form the input box -->
+      <p>CVV: <input type="password" name="cvv" id="" required /></p>
+      <!-- this will display a submit form button with text pay now -->
+      <input type="submit" value="Pay Now" />
+    </form>
+  </body>
+</html>
