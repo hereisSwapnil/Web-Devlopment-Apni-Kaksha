@@ -1,0 +1,53 @@
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#A{
+    display: none;
+}
+
+h2{
+    background-color: lightblue;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.img{
+    width: 150px;
+    float: right;
+    border: 15px solid lightblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:580px) {
+    .img{
+        float: none;
+        width: 150px;
+        border: 15px solid lightblue;
+        border-radius: 10px;
+    }
+
+    #A{
+        display: flex;
+    }
+
+    #B{
+        display: none;
+    }
+
+    .container{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .img{
+        margin: 0px;
+    }
+}

@@ -1,0 +1,37 @@
+.box-set{
+    background-color: lightgray;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Position will be absolute to the screen of the web */
+
+.box-1{
+    position: absolute;
+    top: 20px;
+} 
+
+.box-2{
+    position: absolute;
+    bottom: 20px;
+}
+
+.box-3{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.box-4{
+    position: absolute;
+    right: 20px;
+}
