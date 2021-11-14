@@ -5,7 +5,7 @@ Web Development Course
 taught by faculties of Apni Kaksha.
 
 ## Course Thumbnail
-![Imgae](https://i.ytimg.com/vi/l1EssrLxt7E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBeHsL0IAwmp4nDP4YTVkzvG9Z2OA)
+![Image.png](https://i.ytimg.com/vi/l1EssrLxt7E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBeHsL0IAwmp4nDP4YTVkzvG9Z2OA)
 
   
 ## 🔗 Links
