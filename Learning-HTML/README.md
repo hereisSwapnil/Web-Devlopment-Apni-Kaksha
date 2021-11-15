@@ -7,10 +7,15 @@ This section focusses on the basic structure of HTML and making a backbone for a
 
 ## Screenshots
 ![image.png](https://i.postimg.cc/mD0ZSkrg/image.png)
+
 ![image.png](https://i.postimg.cc/VNJcHwpr/image.png)
+
 ![image.png](https://i.postimg.cc/qBsHFjbL/image.png)
+
 ![image.png](https://i.postimg.cc/d0kzjBZG/image.png)
+
 ![image.png](https://i.postimg.cc/MHxNxJPY/image.png)
+
 ![image.png](https://i.postimg.cc/G3QSYNgZ/image.png)
   
 ## 🔗 Links

@@ -1,0 +1,26 @@
+.container{
+    background-color: #ccc;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item{
+    background-color: lightskyblue;
+    border: 1px solid rgb(64, 182, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+.image{
+    width: 100px;
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+.right{
+    float: right;
+    margin-left: 10px;
+}

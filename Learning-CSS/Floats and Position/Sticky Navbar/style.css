@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.paras{
+    background-color: #f9f9f9;
+}
+
+h1{
+    color: oldlace;
+    height: 400px;
+    background-color: plum;
+    font-size: 80px;
+    line-height: 400px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    font-weight: bold;
+}
+.nav ul{
+    margin-left: 27px;
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 22px;
+    margin: 10px;
+    line-height: 53px;
+    margin-right: 70px;
+}
+
+.nav ul li a{
+    color: ivory;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 40px;
+    margin: 30px;
+}
+
+p{
+    margin: 30px;
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
