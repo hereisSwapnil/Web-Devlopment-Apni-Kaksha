@@ -1,0 +1,43 @@
+*{
+    font-size: 22px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.firstbox{
+    background-color: rgb(240, 121, 77);
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 32vw;
+    padding: 10px;
+}
+.secondbox{
+    background-color: rgb(240, 121, 77);
+    height: 55px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 32vw;
+    padding: 10px;
+}
+.thirdbox{
+    background-color: rgb(240, 121, 77);
+    height: 55px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 32vw;
+    padding: 10px;
+}
+.nesrow{
+    background-color: whitesmoke;
+    height: 29px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 9vw;
+    padding: 10px;
+    color: rgb(240, 121, 77);
+}

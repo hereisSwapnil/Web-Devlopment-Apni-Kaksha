@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    background-color: palegreen;
+    border: 2px solid green;
+    height: 99.4vh;
+    width: 15vw;
+}
+
+.right{
+    background-color: palegreen;
+    border: 2px solid green;
+    width: 85vw;
+    height: 99.4vh;
+}
+
+.header{
+    width: 84.5vw;
+    height: 20vh;
+    background-color: palegreen;
+    border: 2px solid green;
+}
+
+.article{
+    width: 84.5vw;
+    height: 57.6vh;
+    background-color: palegreen;
+    border: 2px solid green;
+}
+
+.footer{
+    width: 84.5vw;
+    height: 20vh;
+    background-color: palegreen;
+    border: 2px solid green;
+}

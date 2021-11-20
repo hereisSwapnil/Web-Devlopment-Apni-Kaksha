@@ -34,6 +34,11 @@ This section focusses on styling a website using css and methods for making a si
 
 ![image.png](https://i.postimg.cc/76sGy4p7/image.png)
 
-  
+![image.png](https://i.postimg.cc/XvMk0Xrq/image.png)
+
+![image.png](https://i.postimg.cc/bY60wmZK/image.png)
+
+![image.png](https://i.postimg.cc/260W35S4/image.png)
+
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swapnil-singh-01317b21a/)
