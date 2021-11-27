@@ -1,0 +1,41 @@
+.gola{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s,height 2s,border-radius 2s;
+}
+
+.gola:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn{
+    position: relative;
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: tomato;
+    width: 200px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.bounc{
+    margin-top: 100px;
+    position: absolute;
+    background-color: #fff;
+}
+
+@keyframes bouncing {
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    }
+    100%{
+        bottom: 100px;
+        box-shadow: rgba(0, 100px, 100px, 0.1);
+    }
+}

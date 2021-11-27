@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 1.5%;
+    height: 97vh;
+    padding: 10px;
+}
+
+.child div{
+    border: 1px solid rgb(88, 146, 148);
+    background-color: cadetblue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.child{
+    display: grid;
+    grid-gap: 1.5%;
+}

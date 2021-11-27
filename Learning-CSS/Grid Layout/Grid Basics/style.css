@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    /* This increases the responsiveness of the columns */
+    grid-template-columns: repeat(auto-fill,minmax(313px,1fr));
+    /* Used for rows and columns creation */
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    grid-gap: 20px;
+}
+
+.items{
+    background-color: lightgreen;
+    border: 1px solid rgb(117, 247, 117);
+    border-radius: 3px;
+}
+
+/* This will change the grid position of item 2 */
+#item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#item4{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

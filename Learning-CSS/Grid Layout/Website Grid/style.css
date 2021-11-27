@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 10px;
+}
+
+.nav{
+    height: 100vh;
+    background-color: yellow;
+}
+
+.head{
+    background-color: yellow;
+}
+
+.foot{
+    background-color: yellow;
+}
+
+
+.right{
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-gap: 10px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-gap: 10px;
+}
+
+.main div{
+    background-color: yellow;
+}
